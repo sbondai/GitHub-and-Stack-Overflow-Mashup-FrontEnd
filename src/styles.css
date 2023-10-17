@@ -1,0 +1,66 @@
+/* Add the provided CSS */
+/* Reset and Global Styles */
+/* ... (all the provided styles) */
+
+/* Your Additional Styles */
+.s128 {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  background: #d8f4fe;
+  padding: 15px;
+}
+
+/* ... (other styles as needed) */
+
+/* Input Styles */
+.s128 input {
+  height: 60px;
+  border: none;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Clear Button Styles */
+.clear {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* SVG Styles */
+.clear svg {
+  fill: #ccc;
+}
+
+.clear:hover svg {
+  fill: #333;
+}
+/* App.css or styles.css */
+
+.loading-icon {
+  display: block;
+  margin: auto; /* Adjusts the position to the center */
+  width: 50px;
+  height: 50px;
+  filter: grayscale(100%);
+}
+
+/* App.css or styles.css */
+
+.result-item {
+  padding: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* Adds a faint border */
+  margin-bottom: 10px;
+}
+
+.result-item h3 {
+  font-size: 1rem; /* Adjusts the font size of the title */
+  margin-bottom: 5px; /* Adjusts the space between the title and description */
+}
+
+.result-item p {
+  margin: 0;
+}
